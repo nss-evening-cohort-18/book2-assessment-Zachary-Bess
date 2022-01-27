@@ -75,5 +75,5 @@ function addToys(object){
     //MasterChief,SonicTheHedgehog,Pokemon,MatrixReloaded,BioShock
 //]
 for (const toy of toys){
-    console.log(`The ${toy.name} ${toy.weight} costs ${toy.operatinSystem}`)
+    console.log(`The ${toy.name} ${toy.maker} costs ${toy.price} dollars.`)
 }
