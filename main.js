@@ -1,4 +1,3 @@
- # book2-assessment-Zachary-Bess
 const toys = []
 
 const MasterChief = {
@@ -75,5 +74,6 @@ function addToys(object){
 //const toys = [
     //MasterChief,SonicTheHedgehog,Pokemon,MatrixReloaded,BioShock
 //]
-
-
+for (const toy of toys){
+    console.log(`The ${toy.name} ${toy.weight} costs ${toy.operatinSystem}`)
+}
